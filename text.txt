@@ -1,0 +1,22 @@
+software engineer
+behavioral
+Tell me about a time you missed or almost missed a deadline—what happened and what did you change afterward?
+Describe a conflict during a code review. How did you move the team to a decision everyone accepted?
+Give an example of working in an unstructured environment. How did you decide what to do next?
+
+software engineer
+technical
+Walk me through how you’d debug a production outage you’ve just been paged for—what are your first three steps?
+You have a slow SQL query in a critical path. How do you find the bottleneck and prove your fix worked?
+When would you choose threads vs async/await vs an event loop? Share a case where the choice mattered.
+
+ux designer
+behavioral
+Tell me about a time you solved a design challenge.
+How do you handle critical feedback on your designs?
+
+ux designer
+technical
+What tools do you use for wireframing?
+Explain the difference between UX and UI.
+How do you test usability?

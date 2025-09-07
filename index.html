@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Talk2Hire: Interview Preparation Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash" class="splash">
+    <!-- Logo text or image -->
+    <!-- <h1 class="logo">Talk2Hire AI</h1> -->
+    <img src="logo.png" class="logo" alt="Talk2Hire AI">
+  </div>
+
+  <!-- Chatbot Container (hidden initially) -->
+  <div id="chat-container" class="container hidden">
+    <h1>Talk2Hire: Interview Preparation Bot</h1>
+    <div>
+      <label for="roleDropdown">Role:</label>
+      <select id="roleDropdown">
+        <option value="ux designer">UX Designer</option>
+        <option value="software engineer">Software Engineer</option>
+      </select>
+
+      <label for="modeDropdown">Mode:</label>
+      <select id="modeDropdown">
+        <option value="technical">Technical</option>
+        <option value="behavioral">Behavioral</option>
+      </select>
+
+      <button id="startBtn">Start Interview</button>
+    </div>
+
+    <div id="chatbox" class="chatbox"></div>
+
+    <div class="input-area">
+      <input id="userInput" type="text" placeholder="Type your answer here...">
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
